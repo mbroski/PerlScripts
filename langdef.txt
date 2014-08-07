@@ -1,0 +1,16 @@
+JSON
+    filter remove_matches ^\s*[{}\[\],]\s*
+    extension json
+    3rd_gen_scale 1.0
+plist
+    filter remove_matches .
+    extension plist
+    3rd_gen_scale 1.0
+xib
+    filter remove_matches .
+    extension xib
+    3rd_gen_scale 1.0
+storyboard
+    filter remove_matches .
+    extension storyboard
+    3rd_gen_scale 1.0
